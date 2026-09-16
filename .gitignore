@@ -7,6 +7,11 @@ dist/
 .venv/
 venv/
 
+# --- Tool caches ------------------------------------------------------------
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+
 # --- Manim ------------------------------------------------------------------
 # Manim's scratch workspace: every render writes here, including the
 # partial-movie-files used for caching. Nothing in here is tracked.
